@@ -52,3 +52,6 @@ SystemUIServer Terminal Twitter" killall;
 # Add SVN Editor
 SVN_EDITOR=vi
 export SVN_EDITOR
+
+# Add color to grep
+export GREP_OPTIONS='--color=always'
