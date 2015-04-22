@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/arcanist/bin:$HOME/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -55,3 +55,10 @@ export SVN_EDITOR
 
 # Add color to grep
 export GREP_OPTIONS='--color=always'
+
+# Add the fuck to system
+# intro: https://github.com/nvbn/thefuck
+alias fuck='$(thefuck $(fc -ln -1))'
+# You can use whatever you want as an alias, like for mondays:
+alias FUCK='fuck'
+
