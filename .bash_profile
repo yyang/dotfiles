@@ -62,3 +62,9 @@ alias fuck='$(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for mondays:
 alias FUCK='fuck'
 
+# Added Haskell
+export PATH="/Library/Haskell/bin:$HOME/Library/Haskell/bin:$PATH"
+
+# Added Android SDK
+# brew install android-sdk
+export ANDROID_HOME=/usr/local/opt/android-sdk
