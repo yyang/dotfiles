@@ -1,8 +1,6 @@
 [user]
 	email = git@iyyang.com
 	name = Yi Yang
-[core]
-	excludesfile = /Users/yyang/.gitignore_global
 
 [alias]
 
@@ -88,6 +86,7 @@
 	# More info:
 	# <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	trustctime = false
+	excludesfile = /Users/yyang/.gitignore_global
 
 [color]
 
