@@ -68,3 +68,8 @@ export PATH="/Library/Haskell/bin:$HOME/Library/Haskell/bin:$PATH"
 # Added Android SDK
 # brew install android-sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Added vmware fusion
+if [ -d "/Applications/VMware Fusion.app/Contents/Library" ]; then
+    export PATH=$PATH:"/Applications/VMware Fusion.app/Contents/Library"
+fi
